@@ -1,6 +1,6 @@
 
 console.log(this.document.getElementById("myChart"));
-var myChart = new Chart(this.document.getElementById("myChart"), {
+ var myChart = new Chart(this.document.getElementById("myChart"), {
   type: 'bar',
   data: {
     labels: ["Group 1", "Group 2", "Group 3"],
@@ -16,7 +16,7 @@ new Chart(document.getElementById("line-chart"), {
     labels: [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050],
     datasets: [{
       data: [86,114,106,106,107,111,133,221,783,2478],
-      label: "Africa",
+      label: arr[0][0],
       borderColor: "#3e95cd",
       fill: false
     }, {
