@@ -10,7 +10,8 @@ console.log(this.document.getElementById("myChart"));
     }]
   }
 });
-new Chart(document.getElementById("line-chart"), {
+
+var myChart2 = new Chart(document.getElementById("line-chart"), {
   type: 'line',
   data: {
     labels: [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050],
@@ -48,5 +49,6 @@ new Chart(document.getElementById("line-chart"), {
       text: 'World population per region (in millions)'
     }
   }
+
 });
 
