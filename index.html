@@ -28,17 +28,19 @@
 <pre id="output"></pre>
 <script>
   var arr =[0,0];
-  console.log("test");
+
   async function loadFile(file) {
     //let text = await file.text();
     document.getElementById('output').textContent = await file.text();
+  }
+  function afficharr(void){
+
     for (f=0;f<arr[0].length;f++) {
       for (t = 0; t < arr[0][f].length; t++) {
         //console.log(arr[0][f].split(","));
 
       }
     }
-
   }
 </script>
 
