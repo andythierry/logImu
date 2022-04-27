@@ -52,7 +52,7 @@
   function renschart() {
     for (f=0;f<chrtinfo.length;f++) {
       myChart2.data.labels.push(chrtinfo[f][0]);
-      myChart2.data.datasets[1].push(chrtinfo[f][1]);
+      myChart2.data.datasets[1].data.push(chrtinfo[f][1]);
     }
   myChart2.update();
   }
