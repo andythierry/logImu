@@ -31,9 +31,11 @@
   async function loadFile(file) {
     //let text = await file.text();
     document.getElementById('output').textContent = await file.text();
-    for (f=0;f<arr[0].length;f++)
-      for(t=0;t<arr[0][f].length;t++)
-        console.log(arr[0][f].split(","))
+    for (f=0;f<arr[0].length;f++) {
+      for (t = 0; t < arr[0][f].length; t++) {
+        console.log(arr[0][f].split(","));
+      }
+    }
   }
 </script>
 
