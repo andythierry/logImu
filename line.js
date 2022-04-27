@@ -17,7 +17,7 @@ var myChart2 = new Chart(document.getElementById("line-chart"), {
     labels: [0],
     datasets: [{
       data: [0],
-      label: arr[0][0],
+      label: "Imu",
       borderColor: "#3e95cd",
       fill: false
     }, {
@@ -61,7 +61,7 @@ var myChart2 = new Chart(document.getElementById("line-chart"), {
   options: {
     title: {
       display: true,
-      text: 'World population per region (in millions)'
+      text: 'Imu Data Logs'
     }
   }
 
