@@ -40,6 +40,21 @@ var myChart2 = new Chart(document.getElementById("line-chart"), {
       label: "North America",
       borderColor: "#c45850",
       fill: false
+    }, {
+      data: [0],
+      label: "North America",
+      borderColor: "#c45850",
+      fill: false
+    }, {
+      data: [0],
+      label: "North America",
+      borderColor: "#c45850",
+      fill: false
+    }, {
+      data: [0],
+      label: "North America",
+      borderColor: "#c45850",
+      fill: false
     }
     ]
   },
