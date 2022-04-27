@@ -58,7 +58,11 @@
       myChart2.data.datasets[4].data.push(chrtinfo[f][4]);
       myChart2.data.datasets[5].data.push(chrtinfo[f][5]);
       myChart2.data.datasets[6].data.push(chrtinfo[f][6]);
-      // myChart2.data.config.label=arr[1];
+
+    }
+    for (f=0;f<arr[1].length;f++) {
+      myChart2.data.datasets[f].label=arr[1][f];
+    }
     }
 
   myChart2.update();
