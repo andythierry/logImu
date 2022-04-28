@@ -45,7 +45,7 @@
       for (t = 0; t < (arr[0].length)-1; t++) {
         console.log(arr[0][f].split(",")[t],t,f);
         chrtinfo.push(arr[0][f].split(",")[t]);
-        myChart2.data.datasets[t].data.clear;
+        myChart2.data.datasets[t].data.pop();
 
       }
       myChart2.data.labels.push(arr[0][f].split(",")[0]);
