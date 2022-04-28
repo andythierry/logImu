@@ -42,7 +42,7 @@
   function afficharr(){
 // Vide la premiere donee des datasets
     for (t = 0; t < (myChart2.data.datasets.length)-1; t++) {
-      while ((myChart2.data.datasets.length)!= 0){
+      while ((myChart2.data.datasets[t].length)!= 0){
 
       myChart2.data.datasets[t].data.pop();
       }
