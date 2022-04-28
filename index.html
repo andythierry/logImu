@@ -47,7 +47,13 @@
       myChart2.data.datasets[t].data.pop();
       }
     }
-    // Vide les timestamp
+    // Vide les timestamps
+
+      while ((myChart2.data.labels.length)!= 0){
+
+        myChart2.data.labels.pop();
+      }
+
     for (f=0;f<(arr[0].length);f++) {
       // Affiche un log de ce qui va etre enregistré pour le debug
       for (t = 0; t < (arr[0].length)-1; t++) {
