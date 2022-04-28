@@ -47,13 +47,13 @@
         chrtinfo.push(arr[0][f].split(",")[t]);
 
       }
-      myChart2.data.labels.push(arr[0][f].split(",")[f]);
-      myChart2.data.datasets[1].data.push(arr[0][f].split(",")[f+1]);
-      myChart2.data.datasets[2].data.push(arr[0][f].split(",")[f+2]);
-      myChart2.data.datasets[3].data.push(arr[0][f].split(",")[f+3]);
-      myChart2.data.datasets[4].data.push(arr[0][f].split(",")[f+4]);
-      myChart2.data.datasets[5].data.push(arr[0][f].split(",")[f+5]);
-      myChart2.data.datasets[6].data.push(arr[0][f].split(",")[f+6]);
+      myChart2.data.labels.push(arr[0][f].split(",")[0]);
+      myChart2.data.datasets[1].data.push(arr[0][f].split(",")[1]);
+      myChart2.data.datasets[2].data.push(arr[0][f].split(",")[2]);
+      myChart2.data.datasets[3].data.push(arr[0][f].split(",")[3]);
+      myChart2.data.datasets[4].data.push(arr[0][f].split(",")[4]);
+      myChart2.data.datasets[5].data.push(arr[0][f].split(",")[5]);
+      myChart2.data.datasets[6].data.push(arr[0][f].split(",")[6]);
     }
     for (f=0;f<arr[1].length;f++) {
       myChart2.data.datasets[f].label=arr[1][f];
