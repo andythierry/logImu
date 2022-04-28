@@ -55,6 +55,10 @@
       myChart2.data.datasets[5].data.push(chrtinfo[t+5]);
       myChart2.data.datasets[6].data.push(chrtinfo[t+6]);
     }
+    for (f=0;f<arr[1].length;f++) {
+      myChart2.data.datasets[f].label=arr[1][f];
+    }
+    myChart2.update();
     // renschart()
   }
   function renschart() {
