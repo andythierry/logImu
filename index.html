@@ -41,9 +41,12 @@
   }
   function afficharr(){
 // Vide la premiere donee des datasets
-//     for (t = 0; t < (arr[0].length)-1; t++) {
-//       myChart2.data.datasets[t].data.pop();
-//     }
+    for (t = 0; t < (myChart2.data.datasets.length)-1; t++) {
+      while (myChart2.data.datasets.length != 0) {
+
+      myChart2.data.datasets[t].data.pop();
+      }
+   }
     for (f=0;f<(arr[0].length);f++) {
       // Affiche un log de ce qui va etre enregistré pour le debug
       for (t = 0; t < (arr[0].length)-1; t++) {
