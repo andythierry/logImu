@@ -1,5 +1,5 @@
 
-console.log(this.document.getElementById("myChart"));
+// console.log(this.document.getElementById("myChart"));
  var myChart = new Chart(this.document.getElementById("myChart"), {
   type: 'bar',
   data: {
